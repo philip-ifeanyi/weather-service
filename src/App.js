@@ -51,18 +51,11 @@ function App() {
           return 'from-yellow-700 to-orange-700'
         }
     }
-  
-
-    // if (weather.temp <= celciusThreshold || weather.temp <= fahrenheitThreshold) {
-    //   return 'from-cyan-700 to-blue-700'
-    // } else {
-    //   return 'from-yellow-700 to-orange-700'
-    // }
   }
 
 
   return (
-    <div className={`mx-auto max-w-screen-md lg:mt-4 lg:mb-4 py-5 md:px-32 sm:px-16 px-2 bg-gradient-to-br ${formatBackground()} h-auto lg:shadow-xl lg:shadow-gray-400 min-h-screen`}>
+    <div className={`mx-auto max-w-screen-md lg:mt-4 lg:mb-4 sm:py-5 md:px-32 sm:px-16 px-2 bg-gradient-to-br ${formatBackground()} h-auto lg:shadow-xl lg:shadow-gray-400 min-h-screen`}>
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} setUnits={setUnits} units={units}/>
 
