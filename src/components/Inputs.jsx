@@ -40,7 +40,7 @@ function Inputs({ setUnits, units, setQuery }) {
   }
 
   return (
-    <div className='flex flex-row justify-center my-6 w-full'>
+    <div className='flex flex-row justify-center mb-4 w-full'>
       <div className="flex flex-col sm:flex-row w-3/4 items-center justify-center space-x-4">
         <form onSubmit={handleSearchClick}>
           <input 
