@@ -57,7 +57,7 @@ function Inputs({ setUnits, units, setQuery }) {
         </div>
       </div>
 
-      <div className='flex flex-row w-1/4 items-start justify-start sm:justify-center sm:items-center'>
+      <div className='flex flex-row w-1/4 items-start justify-center sm:justify-center sm:items-center'>
         <button name='metric'className='text-xl font-light text-white cursor-pointer transition ease-out hover:scale-125' onClick={handleUnitChange}>℃</button>
         <p className='mx-1 text-xl text-white'>|</p>
         <button name='imperial' className='text-xl font-light text-white cursor-pointer transition ease-out hover:scale-125' onClick={handleUnitChange}>℉</button>
