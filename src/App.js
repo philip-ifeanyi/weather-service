@@ -55,7 +55,7 @@ function App() {
 
 
   return (
-    <div className={`mx-auto max-w-screen-md lg:mt-4 lg:mb-4 py-5 md:px-32 sm:px-16 px-2 bg-gradient-to-br ${formatBackground()} h-auto lg:shadow-xl lg:shadow-gray-400 min-h-screen`}>
+    <div className={`mx-auto max-w-screen-md lg:mt-4 lg:mb-4 sm:py-5 md:px-32 sm:px-16 px-2 bg-gradient-to-br ${formatBackground()} h-auto lg:shadow-xl lg:shadow-gray-400 min-h-screen`}>
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} setUnits={setUnits} units={units}/>
 
